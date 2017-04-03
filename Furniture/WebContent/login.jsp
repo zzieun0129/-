@@ -18,26 +18,24 @@
 						<form action="javascript:void(0);" method="get">
 								<fieldset class="clearfix">
 								<p>
-									<span class="fa fa-user">ID</span>
-									<input type="text"  Placeholder="아이디" required>
+									<input type="text"  Placeholder="아이디" required class="form-control" >
 								</p> 
 		            			<p>
-									<span class="fa fa-lock"> PW </span>
-									<input type="password"  Placeholder="비밀번호" required>
+									<input type="password"  Placeholder="비밀번호" required class="form-control" >
 								</p>
 								<div>
-									<span style="width:50%; text-align:right;  display: inline-block;">
-										<input type="button" value="회원가입" onClick="location.href='addMember.jsp';">
+									<span style="width:100px; text-align:right;  display: inline-block;">
+										<input type="button" value="회원가입" onClick="location.href='addMember.jsp';" class="form-control">
 									</span>
-									<span style="width:48%; text-align:left;  display: inline-block;">
-										<input type="button" value="ID/PW찾기">
+									<span style="width:100px; text-align:left;  display: inline-block;">
+										<input type="button" value="ID/PW찾기" class="form-control" >
 									</span>
 								</div>
 		          				</fieldset>
         				</form>
 					</div>
       <div class="logo">
-      	<button type="button">LOGIN</button>
+      	<button type="button" >LOGIN</button>
           
       </div>
       

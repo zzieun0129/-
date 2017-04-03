@@ -85,11 +85,9 @@ p {
 }
 #login{
     display:inline-block;
-    width:40%;
 }
 #login{
 border-right:1px solid #fff;
-  width: 59%;
 }
 .logo{
 font-size:30px;

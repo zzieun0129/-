@@ -4,41 +4,55 @@
 <html>
 <head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 </head>
 <body>
-        <form class="form-horizontal">
-
-          <div class="form-group">
-          <label class="col-sm-2 control-label" for="inputId">카드번호</label>
-        <div class="col-sm-6">
-          <input class="form-control" id="inputId" type="email" placeholder="아이디">
-        </div>
-        </div>
-        <div class="form-group">
-          <label class="col-sm-2 control-label" for="inputId">유효기간</label>
-        <div class="col-sm-6">
-          <input class="form-control" id="inputId" type="email" placeholder="아이디">
-        </div>
-        </div>
-        <div class="form-group">
-          <label class="col-sm-2 control-label" for="inputId">CVC</label>
-        <div class="col-sm-6">
-          <input class="form-control" id="inputId" type="email" placeholder="아이디">
-        </div>
-        </div>
-        <div class="form-group">
-          <label class="col-sm-2 control-label" for="inputId">생년월일</label>
-        <div class="col-sm-6">
-          <input class="form-control" id="inputId" type="email" placeholder="아이디">
-        </div>
-        </div>
-                <div class="col-sm-12 ">
-        
-           <button type="button" class="btn btn-lg btn-success">결제하기</button>
-           </div>
+<div class="container">
+	<div class="page-header">
+		<h3>결제</h3>
+	</div>
+	<div class="row">
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="inputId">카드번호</label>
+				<div class="col-sm-6">
+					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="inputId">유효기간</label>
+				<div class="col-sm-6">
+					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="inputId">CVC</label>
+				<div class="col-sm-6">
+					<input class="form-control" id="inputId" type="email" placeholder="아이디">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-2 control-label" for="inputId">생년월일</label>
+				<div class="col-sm-6">
+					<input class="form-control" id="inputId" type="email" placeholder="아이디">
+				</div>
+			</div>
+			<div class="col-sm-12 ">
+				<div class="col-sm-12 text-center">
+					<button type="button" class="btn btn-lg btn-success">결제하기</button>
+				</div>
+			</div>
         </form>
+	</div>
+        
+        
+</div>
 </body>
 </html>

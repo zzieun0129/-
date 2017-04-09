@@ -33,7 +33,7 @@
 		                <td>600,000</td>
 		                <td>
 			                <input type="button"  value="교환" onClick="location.href='requestReturn.jsp';">
-			                <input type="button"  value="반품">
+			                <input type="button"  value="반품" onClick="location.href='addClaim.jsp';">
 		                </td>
 	              </tr>
 	            </tbody>

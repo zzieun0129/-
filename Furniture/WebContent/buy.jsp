@@ -46,7 +46,7 @@
 			</div>
 			<div class="col-sm-12 ">
 				<div class="col-sm-12 text-center">
-					<button type="button" class="btn btn-lg btn-success">결제하기</button>
+					<button type="button" class="btn btn-lg btn-success" onclick="window.open='orderList.jsp';">결제하기</button>
 				</div>
 			</div>
         </form>

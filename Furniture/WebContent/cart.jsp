@@ -37,7 +37,7 @@
 		                </td>
 		                <td><input type="text" style="width:50px;"></td>
 		                <td>600,000</td>
-		                <td><input type="button"  value="주문"></td>
+		                <td><input type="button"  value="주문" onClick="location.href='order.jsp';"></td>
 					</tr>
 					<tr>
 		                <td><input type="checkbox"></td>
@@ -50,12 +50,12 @@
 		                </td>
 		                <td><input type="text" style="width:50px;"></td>
 		                <td>600,000</td>
-		                <td><input type="button"  value="주문"></td>
+		                <td><input type="button"  value="주문" onClick="location.href='order.jsp';"></td>
 					</tr>
 				</tbody>
 			</table>
 			<div class="btn">
-				<input type="button"  value="선택상품주문">
+				<input type="button"  value="선택상품주문" onClick="location.href='order.jsp';">
 			</div>
 		</div>
 	</div>

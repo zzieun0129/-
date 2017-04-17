@@ -23,19 +23,22 @@
 		            			<p>
 									<input type="password"  Placeholder="비밀번호" required class="form-control" >
 								</p>
-								<div>
-									<span style="width:100px; text-align:right;  display: inline-block;">
+								<div style="width:400px;">
+									<span style="width:80px; text-align:right;  display: inline-block;">
 										<input type="button" value="회원가입" onClick="location.href='addMember.jsp';" class="form-control">
 									</span>
-									<span style="width:100px; text-align:left;  display: inline-block;">
-										<input type="button" value="ID/PW찾기" class="form-control" >
+									<span style="width:80px; text-align:left;  display: inline-block;">
+										<input type="button" value="ID찾기" onClick="location.href='findId.jsp';" class="form-control" >
+									</span>
+									<span style="width:80px; text-align:left;  display: inline-block;">
+										<input type="button" value="PW찾기" onClick="location.href='findPw.jsp';" class="form-control" >
 									</span>
 								</div>
 		          				</fieldset>
         				</form>
 					</div>
       <div class="logo">
-      	<button type="button" >LOGIN</button>
+      	<button type="button" style="height:110px;text-align: center;" >LOGIN</button>
           
       </div>
       

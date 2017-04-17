@@ -20,10 +20,10 @@
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="inputId">카드번호</label>
 				<div class="col-sm-6">
-					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
-					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
-					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
-					<input class="form-control smallInput" id="inputId" type="email" placeholder="아이디">
+					<input class=" smallInput" id="inputId" type="email" placeholder="아이디" style="display:none-block;">
+					<input class=" smallInput" id="inputId" type="email" placeholder="아이디"style="display:none-block;" >
+					<input class=" smallInput" id="inputId" type="email" placeholder="아이디" style="display:none-block;">
+					<input class=" smallInput" id="inputId" type="email" placeholder="아이디" style="display:none-block;">
 				</div>
 			</div>
 			<div class="form-group">
